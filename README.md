@@ -2,21 +2,26 @@
 
 ### 메이플 월드 QPlay 서바이벌 퀴즈 With 잼민이
 
-### Environment
+### Spec
 
-- Python 3.13.2
-- gemini-2.0-flash-lite
+- Lang : Python 3.13.2
+- AI : gemini-2.0-flash-lite
+- OCR : pytesseract
+- OpenCv
 
 ### requirements
 
 - Gemini API KEY ( Check .env )
+- pytesseract (install)
 
 ### 설명
 
 - 게임화면 캡쳐
+- 무슨 퀴즈 게임인지 자동 판별 (꽁, 올라만 가능)
 - 캡쳐된 화면에서 원하는 퀴즈 부분만 자른뒤 흑백 전환 및 대비 조정
 - OCR로 문자 추출
-- 제미나이에게 추출된 문자 전송
+- 가지고 있는 족보에서 검색된 내용이 있을경우 해당 내용 표시
+- 족보에서 검색 불가시 제미나이에게 추출된 문자,캡쳐 이미지 화면 전송
 - 추출 문자 및결과 정답 표시
 
 ![img0.png](https://raw.githubusercontent.com/lomal788/Qplay-With-AI/master/img/img0.png)
