@@ -162,7 +162,7 @@ if __name__ == '__main__':
         window = win
         # print(win)
 #   print(window.title)
-#   window.resizeTo(1566, 1211)
+  window.resizeTo(1566, 1211)
 
   try:
    window.activate()
